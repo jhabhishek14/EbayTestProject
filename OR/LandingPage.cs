@@ -16,6 +16,8 @@ namespace Ebay_Test_OR
 
         public static string BookList => "//span[@role='heading']/following::span[@role='heading'][2]";
 
+        public static string  BookTextCart => "//h1[@class='x-item-title__mainTitle']";
+
         public static string AddToCart => "//a[@id='atcBtn_btn_1']";
 
         public static string CartValue => "//i[@id='gh-cart-n']";

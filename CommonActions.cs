@@ -11,7 +11,7 @@ namespace Ebay_Test
 {
     public class CommonActions : TestBase
     {
-       
+        
        
         public bool IsElementPresent(string Control)
         {
@@ -35,7 +35,7 @@ namespace Ebay_Test
             }
 
         }
-
+                      
        
     }
 }
